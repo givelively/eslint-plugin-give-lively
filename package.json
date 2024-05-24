@@ -1,0 +1,16 @@
+{
+  "name": "eslint_config",
+  "version": "1.0.0",
+  "description": "A shareable configuration of Give Livelys Eslint Rules",
+  "main": "index.js",
+  "repository": "git@github.com:givelively/eslint_config.git",
+  "author": "Christian Lowe <christglowe@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^9.3.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8",
+    "@babel/eslint-parser": ">=7"
+  }
+}
