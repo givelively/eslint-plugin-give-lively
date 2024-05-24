@@ -16,5 +16,5 @@ module.exports = {
     sourceType: "module",
   },
   extends: ["eslint:recommended"],
-  rules: [...baseRules],
+  rules: { ...baseRules },
 };
