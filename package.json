@@ -1,5 +1,5 @@
 {
-  "name": "eslint_config",
+  "name": "eslint-plugin-give-lively",
   "version": "1.0.0",
   "description": "A shareable configuration of Give Livelys Eslint Rules",
   "main": "index.js",
