@@ -6,11 +6,7 @@
   "repository": "git@github.com:givelively/eslint_config.git",
   "author": "Christian Lowe <christglowe@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "eslint": "^9.3.0"
-  },
   "peerDependencies": {
-    "eslint": ">=8",
     "@babel/eslint-parser": ">=7"
   }
 }
