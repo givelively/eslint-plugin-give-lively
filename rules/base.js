@@ -14,6 +14,7 @@ module.exports = {
     { ignoreArrayIndexes: true, ignoreDefaultValues: true },
   ],
   "no-param-reassign": "error",
+  "sort-keys": ["error"],
   "prefer-arrow-callback": "error",
   "prefer-destructuring": ["error", { object: true }],
   "prefer-object-spread": "error",
