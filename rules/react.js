@@ -1,11 +1,12 @@
 module.exports = {
+  "react/no-multi-comp": "warn",
   "react/display-name": "off",
   "react/no-danger": "error",
   "react/no-invalid-html-attribute": "error",
   "react/jsx-no-script-url": "error",
   "react/hook-use-state": "error",
   "react/boolean-prop-naming": [
-    "error",
+    "warn",
     {
       message:
         'Boolean prop ({{ propName }}) should match boolean name convention, starting with verb like "is", "has", "should", etc.',
