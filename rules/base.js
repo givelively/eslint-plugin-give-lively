@@ -88,6 +88,6 @@ module.exports = {
   ],
   "prefer-object-spread": "error",
   "prefer-template": "error",
-  "sort-keys": ["warn", { insensitive: true }],
+  "sort-keys": ["warn", "asc", { caseSensitive: false }],
   yoda: ["warn", "never"],
 };
