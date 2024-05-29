@@ -1,4 +1,11 @@
 module.exports = {
+  "jest/consistent-test-it": [
+    "error",
+    {
+      fn: "it",
+      withinDescribe: "it",
+    },
+  ],
   "jest/expect-expect": "error",
   "jest/max-expects": ["error", { max: 3 }],
   "jest/max-nested-describe": "error",
