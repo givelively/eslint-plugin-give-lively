@@ -1,5 +1,78 @@
 module.exports = {
+  "array-callback-return": [
+    "warn",
+    {
+      checkForEach: true,
+    },
+  ],
+  complexity: [
+    "error",
+    {
+      max: 4,
+    },
+  ],
+  "consistent-return": [
+    "error",
+    {
+      treatUndefinedAsUnspecified: true,
+    },
+  ],
+  "default-case": "error",
+  "default-case-last": "error",
+  "dot-notation": "error",
   "eol-last": "warn",
+  eqeqeq: ["error", "always"],
+  "max-depth": [
+    "error",
+    {
+      max: 3,
+    },
+  ],
+  "max-lines": [
+    "warn",
+    {
+      max: 300,
+      skipComments: true,
+    },
+  ],
+  "max-params": [
+    "error",
+    {
+      max: 3,
+    },
+  ],
+  "max-statements": [
+    "warn",
+    {
+      max: 20,
+    },
+  ],
+  "no-alert": "warn",
+  "no-console": [
+    "error",
+    {
+      allow: ["warn", "error"],
+    },
+  ],
+  "no-duplicate-imports": "error",
+  "no-magic-numbers": [
+    "warn",
+    {
+      ignoreArrayIndexes: true,
+      ignoreDefaultValues: true,
+    },
+  ],
+  "no-nested-ternary": "error",
+  "no-param-reassign": "error",
+  "no-throw-literal": "error",
+  "no-unneeded-ternary": "error",
+  "no-use-before-define": "error",
+  "no-useless-computed-key": "error",
+  "no-useless-return": "warn",
+  "no-var": "error",
+  "object-shorthand": ["error", "properties"],
+  "one-var": ["error", "never"],
+  "prefer-arrow-callback": "error",
   "prefer-const": [
     "error",
     {
@@ -7,38 +80,14 @@ module.exports = {
       ignoreReadBeforeAssign: true,
     },
   ],
-  "no-console": ["error", { allow: ["warn", "error"] }],
-  eqeqeq: ["error", "always"],
-  "no-magic-numbers": [
+  "prefer-destructuring": [
     "error",
-    { ignoreArrayIndexes: true, ignoreDefaultValues: true },
+    {
+      object: true,
+    },
   ],
-  "no-param-reassign": "error",
-  "sort-keys": ["error"],
-  "prefer-arrow-callback": "error",
-  "prefer-destructuring": ["error", { object: true }],
   "prefer-object-spread": "error",
-  "no-var": "error",
   "prefer-template": "error",
-  "max-params": ["error", { max: 3 }],
-  "consistent-return": ["error", { treatUndefinedAsUnspecified: true }],
-  "no-useless-return": "warn",
-  "no-throw-literal": "error",
-  "no-nested-ternary": "error",
-  "no-unneeded-ternary": "error",
-  "default-case": "error",
-  "default-case-last": "error",
-  "max-depth": ["error", { max: 3 }],
-  "one-var": ["error", "never"],
-  "no-useless-computed-key": "error",
-  "no-duplicate-imports": "error",
-  "no-use-before-define": "error",
-  complexity: ["error", { max: 4 }],
-  "dot-notation": "error",
-  "no-alert": "warn",
+  "sort-keys": ["warn", { caseSensitive: false }],
   yoda: ["warn", "never"],
-  "max-lines": ["warn", { max: 300, skipComments: true }],
-  "object-shorthand": ["error", "properties"],
-  "max-statements": ["warn", { max: 20 }],
-  "array-callback-return": ["warn", { checkForEach: true }],
 };
