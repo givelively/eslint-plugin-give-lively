@@ -4,9 +4,26 @@
   "description": "A shareable configuration of Give Livelys Eslint Rules",
   "main": "index.js",
   "repository": "git@github.com:givelively/eslint_config.git",
-  "author": "Christian Lowe <christglowe@gmail.com>",
+  "author": "Christian Lowe (https://github.com/TheBrotherFromASouthernMother)",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "givelively",
+    "javascript"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
   "peerDependencies": {
-    "@babel/eslint-parser": ">=7"
+    "eslint": ">=8",
+    "eslint-plugin-jest": ">=27.5.0",
+    "eslint-plugin-jsx-a11y": ">=6.5.1",
+    "eslint-plugin-react-hooks": ">=4.5.0",
+    "eslint-plugin-react": ">=7.29.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
   }
 }

@@ -1,10 +1,4 @@
 module.exports = {
-  "react/no-multi-comp": "warn",
-  "react/display-name": "off",
-  "react/no-danger": "error",
-  "react/no-invalid-html-attribute": "error",
-  "react/jsx-no-script-url": "error",
-  "react/hook-use-state": "error",
   "react/boolean-prop-naming": [
     "warn",
     {
@@ -13,10 +7,27 @@ module.exports = {
     },
   ],
   "react/destructuring-assignment": ["error", "always"],
-  "react/jsx-boolean-value": ["error", "never", { always: [] }],
-  "react/jsx-pascal-case": "error",
+  "react/display-name": "off",
+  "react/hook-use-state": "error",
+  "react/jsx-boolean-value": [
+    "error",
+    "never",
+    {
+      always: [],
+    },
+  ],
+  "react/jsx-max-depth": [
+    "warn",
+    {
+      max: 3,
+    },
+  ],
+  "react/jsx-no-script-url": "error",
   "react/jsx-no-useless-fragment": "error",
-  "react/jsx-max-depth": ["warn", { max: 3 }],
-  "react/require-default-props": "warn",
+  "react/jsx-pascal-case": "error",
+  "react/no-danger": "error",
+  "react/no-invalid-html-attribute": "error",
+  "react/no-multi-comp": "warn",
   "react/no-unused-prop-types": "error",
+  "react/require-default-props": "warn",
 };
