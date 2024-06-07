@@ -23,6 +23,7 @@ module.exports = {
     'plugin:give-lively/base',
     'plugin:give-lively/react',
     'plugin: give-lively/jest',
+    'plugin: give-lively/custom',
   ],
   env: {
     // Your environments (which contains several predefined global variables)
