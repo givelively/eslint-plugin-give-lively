@@ -17,9 +17,9 @@ module.exports = {
     },
   ],
   "react/jsx-max-depth": [
-    "warn",
+    "error",
     {
-      max: 3,
+      max: 10,
     },
   ],
   "react/jsx-no-script-url": "error",
@@ -27,7 +27,7 @@ module.exports = {
   "react/jsx-pascal-case": "error",
   "react/no-danger": "error",
   "react/no-invalid-html-attribute": "error",
-  "react/no-multi-comp": "warn",
+  "react/no-multi-comp": "error",
   "react/no-unused-prop-types": "error",
-  "react/require-default-props": "warn",
+  "react/require-default-props": "off",
 };

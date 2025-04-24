@@ -32,6 +32,7 @@ module.exports = {
     "warn",
     {
       max: 300,
+      skipBlankLines: true,
       skipComments: true,
     },
   ],
@@ -89,6 +90,6 @@ module.exports = {
   ],
   "prefer-object-spread": "error",
   "prefer-template": "error",
-  "sort-keys": ["warn", "asc", { caseSensitive: false }],
+  "sort-keys": "off",
   yoda: ["warn", "never"],
 };
